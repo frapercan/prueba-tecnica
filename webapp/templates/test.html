@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block body %}
+ 
+<div class="block1">
+<h1>Hola!, Esta es la prueba técnica de Francisco Pérez.</h1>
+<h2>Está usted en mi servidor web.</h2>
+
+  <p>
+
+    <form method="POST">
+        Escribame un palindromo:<br>
+        <input name="cadena_palindromo" value="amad a la dama">
+        <br>
+        Escribame una cadena para contar el numero de palabras:<br>
+        <input name="cadena_contar" value="tengo 3 palabras">
+        <br>
+        Escribame un numero para obtener su factorial:<br>
+        <input name="numero_fact" type="number" value=5>
+        <br>
+        Escribame una cadena para cifrarla:<br>
+        <input name="cadena_cifrar" value="hola Media Interactiva">
+        <br>
+        Escribame una cadena para descifrarla:<br>
+        <input name="cadena_descifrar" value="NLc2sJamsjK0sJakNzqyObCxOrQ7sA==">
+        <br>
+        Escribame una capital para decirle el pais al que pertenece:<br>
+        <input name="capital" value="Madrid">
+        <br>
+        <input type="submit">
+    </form>
+  </p>
+
+
+<img src="http://www.naturalprogramming.com/images/smilingpython.gif">
+
+</div>
+{% endblock %}
