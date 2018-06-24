@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block body %}
+ 
+<div class="block1">
+<h1>Hola!, Esta es la prueba técnica de Francisco Pérez.</h1>
+<h2>Está usted en mi servidor web, por lo tanto tienes que pasar una prueba.</h2>
+  <p>
+    Escríbame un palindromo de 3 palabras y pulse la imagen para continuar!
+    <form method="POST">
+    <input name="text">
+    <input type="submit">
+</form>
+    {{processed_text}}
+  </p>
+<img src="http://www.naturalprogramming.com/images/smilingpython.gif">
+</div>
+{% endblock %}
